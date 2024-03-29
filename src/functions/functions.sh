@@ -8,6 +8,8 @@ source ./src/functions/approve-certs.sh
 source ./src/functions/apply-kubeconfig.sh
 source ./src/functions/bootstrap-flux.sh
 source ./src/functions/parse-yaml-env.sh
+source ./src/functions/install-deps-darwin.sh
+source ./src/functions/install-deps-linux.sh
 source ./src/functions/install-deps.sh
 source ./src/functions/title.sh
 source ./src/functions/gen-config.sh

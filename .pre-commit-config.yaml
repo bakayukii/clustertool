@@ -44,10 +44,10 @@ repos:
       hooks:
         - id: custom-script-file
           name: custom-script-file
-          entry: deps/encryption.sh ensure
+          entry: src/functions/encryption.sh ensure
           language: script
     - repo: https://github.com/Lucas-C/pre-commit-hooks
-      rev: v1.1.13
+      rev: v1.5.5
       hooks:
         - id: remove-crlf
         - id: remove-tabs
